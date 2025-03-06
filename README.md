@@ -26,6 +26,8 @@ menjadi
 "generate": "npx @pagonila/codegen toko-online5 0c6aab5e-4609-41cb-a5e6-102e01eb777"
 ```
 
+Isi sesuai dengan project di halaman Pengaturan Pagonila masing-masing, data di atas hanya contoh.
+
 ## Install
 
 1. Install dependensi
