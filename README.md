@@ -6,9 +6,7 @@ Ubah script `generate` pada file **package.json**
 
 ```json
 {
-  ...,
   "scripts": {
-    ...,
     "generate": "npx @pagonila/codegen <slug-project> <kode-project>"
   }
 }
@@ -25,7 +23,7 @@ maka slug = `toko-online5` dan kode = `0c6aab5e-4609-41cb-a5e6-102e01eb777`
 menjadi 
 
 ```json
-"generate": "npx @pagonila/codegen toko-online5 0c6aab5e-4609-41cb-a5e6-102e01eb777
+"generate": "npx @pagonila/codegen toko-online5 0c6aab5e-4609-41cb-a5e6-102e01eb777"
 ```
 
 ## Install
