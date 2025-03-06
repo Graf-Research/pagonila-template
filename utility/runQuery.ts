@@ -1,7 +1,7 @@
 require('dotenv').config();
 import { Pool, PoolClient } from "pg";
 
-export async function runQuery(query: string): Promise<{ rows: { [column: string]: any } }> {
+export async function runQuery(query: string): Promise<{ rows: { [column: string]: any }[] }> {
   const pool = new Pool({
     user: process.env.DB_USERNAME,
     password: process.env.DB_PASSWORD,
