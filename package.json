@@ -6,7 +6,7 @@
     "build": "tsc",
     "start": "node dist",
     "dev": "npm run build && npm start",
-    "generate": "npx @pagonila/codegen <slug-project> <kode-project>"
+    "generate": "npx @pagonila/codegen website-ticketing-event 3361e29d-bf4f-48a7-b706-08ffc4bca967"
   },
   "keywords": [],
   "author": "",
