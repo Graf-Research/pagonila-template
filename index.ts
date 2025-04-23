@@ -31,6 +31,7 @@ async function main() {
   const app = express();
   app.use(express.json());
   const port = 3000;
+  app.use(require('cors')());
 
   for (const endpoint of list_endpoint) {
     app[endpoint.__http_method](endpoint.__http_path, async (req: Request, res: Response) => {
